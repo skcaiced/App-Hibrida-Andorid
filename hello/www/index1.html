@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HTML5 Contact Form</title>
+    <link rel="stylesheet" media="screen" href="css/styles.css" >
+</head>
+<body>
+	<form class="contact_form" action="http://www.scrla.fin.ec/mailappmovil.php" method="post" name="contact_form">
+			<ul>
+				<li>
+					 <h2>App MET4</h2>
+					 <span class="required_notification">* Powered by SKCM Solutions</span>
+				</li>
+				<li>
+					<label for="name">Nombre:</label>
+					<input type="text" name="nombre" placeholder="Steven Caicedo"  required/>
+				</li>
+				
+				
+				<li>
+					<label for="email">From Email:</label>
+					<input type="email" name="correo" placeholder="steven@example.com" required />
+					
+				</li>
+				
+				
+				<li>
+					<label for="website">To Email:</label>
+					<!--<input type="url" name="web" placeholder="http://steven.com/" required pattern="(http|https)://.+" />-->
+					<input type="email" name="web" placeholder="steven@example.com" required  />
+				</li>
+				<li>
+					<label for="message">Mensaje:</label>
+					<textarea name="mensaje" cols="40" rows="6" required ></textarea>
+				</li>
+				
+				
+				<li>
+					<button class="submit" type="submit">Enviar Email</button>
+				</li>
+			</ul>
+	</form>
+
+</body>
+</html>
